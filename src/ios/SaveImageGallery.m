@@ -44,7 +44,7 @@
             }
             
             // get Timestamp
-            double currentTime = CACurrentMediaTime();
+            double currentTime = CFAbsoluteTimeGetCurrent();
             
             // set fileName
             NSString *timeString = [NSString stringWithFormat : @"%f", currentTime];
